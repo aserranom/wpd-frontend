@@ -1,3 +1,13 @@
+// Resize //
+
+$(window).on("resize", function (){
+	var width = $('body').width();
+	if (width < 640) {
+		size = 100 * width / 640;
+		$('body').css("font-size", size + "%");
+  }
+});
+
 // Colors //
 
 var colors = ["0ad7b5", "fb8e63", "8ebaf9", "e2ae63", "eb77c8", "f86161"]
@@ -10,6 +20,7 @@ function shuffle(o){
 colors = shuffle(colors);
 
 $(document).ready(function() {
+  $(window).resize()
   $(".logo").each(function(i) {
     $(this).css("background-color", "#" + colors[i]);
   });
@@ -17,3 +28,4 @@ $(document).ready(function() {
     $(this).css("color", "#" + colors[i]);
   });
 });
+

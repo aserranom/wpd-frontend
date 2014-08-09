@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helveticaneue-bold.eot');
+    src: url('../fonts/helveticaneue-bold.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneue-bold.woff') format('woff'),
+         url('../fonts/helveticaneue-bold.ttf') format('truetype'),
+         url('../fonts/helveticaneue-bold.svg#HelveticaNeueBold') format('svg');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../fonts/helveticaneue-light.eot');
+    src: url('../fonts/helveticaneue-light.eot') format('embedded-opentype'),
+         url('../fonts/helveticaneue-light.woff') format('woff'),
+         url('../fonts/helveticaneue-light.ttf') format('truetype'),
+         url('../fonts/helveticaneue-light.svg#HelveticaNeueLight') format('svg');
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/gothamrnd-bold.eot');
+    src: url('../fonts/gothamrnd-bold.eot') format('embedded-opentype'),
+         url('../fonts/gothamrnd-bold.woff') format('woff'),
+         url('../fonts/gothamrnd-bold.ttf') format('truetype'),
+         url('../fonts/gothamrnd-bold.svg#GothamRoundedBold') format('svg');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Akzidenz';
+    src: url('../fonts/akzigbb_.eot');
+    src: url('../fonts/akzigbb_.eot') format('embedded-opentype'),
+         url('../fonts/akzigbb_.woff') format('woff'),
+         url('../fonts/akzigbb_.ttf') format('truetype'),
+         url('../fonts/akzigbb_.svg#AkzidenzGroteskBEBold') format('svg');
+    font-weight: bold;
+}

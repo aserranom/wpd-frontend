@@ -1,0 +1,92 @@
+/* General */
+body {
+	font-size: 16px;
+	background: #eeeded;
+	text-align: center;
+}
+
+p {
+	margin: 0;
+}
+
+img, input[type="image"] {
+	max-width: 100%;
+	width: 100%;
+}
+
+#wrapper {
+	max-width: 87.5em;
+}
+
+#container {
+	max-width: 40em;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* Upload Form */
+
+h1 {
+	font-size: 3.75em;
+	padding-top: 42px;
+	margin: 0 auto 7px;
+}
+
+h2 {
+	font-size: 1.875em;
+	font-weight: lighter;
+	margin: 0 auto 30px;
+}
+
+input[type="text"] {
+	font-weight: bold;
+	color: #333;
+	width: 100%;
+	border: none;
+	outline: none;
+	border-bottom: 3px solid #000000;
+	background: transparent;
+}
+
+#upload-content{
+	color: #333;
+	max-width: 34.25em;
+	margin: 0 auto;
+	font-family: "HelveticaNeue", Arial;
+}
+
+.input-fields {
+	font-size: 4.0625em;
+	font-weight: bold;
+}
+
+.pre-description {
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+}
+
+.description {
+	padding: 0 0 0 8px;
+	max-width: 6.75em;
+	font-family: "HelveticaNeue", Arial;
+}
+
+form p::after {
+	content: ".";
+	display: inline-block;
+	margin-left: -13px;
+}
+
+/* Stream */
+
+/* Fonts */
+
+.letter-spacing {
+	letter-spacing: -0.05em;
+}
+
+.akzidenz {
+	font-family: "Akzidenz";
+	font-weight: bold;
+}

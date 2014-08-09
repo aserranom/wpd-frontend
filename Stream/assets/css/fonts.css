@@ -20,11 +20,11 @@
 
 @font-face {
     font-family: 'Gotham';
-    src: url('../fonts/gothamrnd-bold.eot');
-    src: url('../fonts/gothamrnd-bold.eot') format('embedded-opentype'),
-         url('../fonts/gothamrnd-bold.woff') format('woff'),
-         url('../fonts/gothamrnd-bold.ttf') format('truetype'),
-         url('../fonts/gothamrnd-bold.svg#GothamRoundedBold') format('svg');
+    src: url('../fonts/gotham-bold.eot');
+    src: url('../fonts/gotham-bold.eot') format('embedded-opentype'),
+         url('../fonts/gotham-bold.woff') format('woff'),
+         url('../fonts/gotham-bold.ttf') format('truetype'),
+         url('../fonts/gotham-bold.svg#GothamBold') format('svg');
     font-weight: bold;
 }
 

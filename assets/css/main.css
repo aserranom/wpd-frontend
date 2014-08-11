@@ -23,14 +23,44 @@ img, input[type="image"] {
 	max-width: 100%;
 }
 
-#wrapper {
-	max-width: 1400px;
-}
-
 #container {
 	max-width: 640px;
 	width: 100%;
 	margin: 0 auto;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.social-buttons {
+  visibility: hidden;
+  margin-bottom: -44px;
+  position: relative;
+}
+
+.social-buttons img {
+  display: inline-block;
+}
+
+.social-buttons img:first-child {
+  margin-right: 1.249em;
+}
+
+.image-wrapper{
+  position: relative;
+}
+
+.visible {
+  display: block !important;
+  visibility: visible !important;
+  z-index: 99 !important;
 }
 
 /* Upload Form */
@@ -86,11 +116,20 @@ input.description {
 /* Stream */
 
 #stream img {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
+}
+
+.close-icon {
+  visibility: hidden;
+  position: absolute;
+  top: -60px;
+  right: 0;
+  cursor: pointer;
 }
 
 .image-container {
   position: relative;
+  cursor: pointer;
 }
 
 .gradient {

@@ -11,6 +11,7 @@ $(window).on("resize", function (){
 // Colors //
 
 var colors = ["0ad7b5", "fb8e63", "8ebaf9", "e2ae63", "eb77c8", "f86161"]
+var $imageWrapper; // REMOVE
 
 function shuffle(o){
     for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
@@ -26,6 +27,15 @@ $(document).ready(function() {
   });
   $(".hashtag").each(function(i) {
     $(this).css("color", "#" + colors[i]);
+  });
+  $(".image-container").click(function() { 
+    $imageWrapper = $(this).parent(".image-wrapper");
+    $imageWrapper.addClass("visible");
+    $imageWrapper.children(".social-buttons, .close-icon").addClass("visible");
+    $(".overlay").addClass("visible");
+  });
+  $(".close-icon, .overlay").click(function() { 
+    $(".visible").removeClass("visible");
   });
 });
 
